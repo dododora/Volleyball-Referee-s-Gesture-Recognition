@@ -6,19 +6,19 @@ import pandas as pd
 import torch
 from train_model import DetectionModel
 import importlib
-import yolov9.detect_dual as detect_dual
-importlib.reload(detect_dual)
+# import yolov9.detect_dual as detect_dual
+# importlib.reload(detect_dual)
 import importlib
 import pose_estimation
 importlib.reload(pose_estimation)
 from pose_estimation import detect_pose
 from torch.utils.data import DataLoader, TensorDataset
 import torch.optim as optim
-from merge_vedio import detect_double_and_four_hits
+# from merge_vedio import detect_double_and_four_hits
 # classification_report
 from sklearn.metrics import classification_report, confusion_matrix
 
-TEST_DATA_PATH = './result/csv/test_result.csv'
+TEST_DATA_PATH = './csv/test_result.csv'
 model_path = '/home/viplab/dodofang/Auto-scoring-System-for-Volleyball-Matches-/result/refereeSignalsModel_20250602223026.pth'
 # actions = ['01_left', '02_right', '03_outball', '04_ball_in', '05_timeout', '06_ball_touch', '07_penetration_under_the_net', '08_catch', 
 #             '09_end_of_setmatch', '10_substitusion', '11_change_courts', '12_four_hits', '13_net_touch', '14_serve', '15_double_contact', '16_inbound']

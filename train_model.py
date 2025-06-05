@@ -14,7 +14,7 @@ import seaborn as sns
 actions_labels = ['01_left', '02_right', '03_outball', '04_ball_in', '05_timeout', '07_penetration_under_the_net', '08_catch', 
                   '09_end_of_setmatch', '10_substitusion', '11_change_courts', '12_four_hits', '13_net_touch', '14_serve', '15_double_contact', '16_inbound', '17_ball_touch_2']
 
-DATA_PATH = './result/csv/'
+DATA_PATH = './csv/'
 TRAIN_DATA_PATH = DATA_PATH + 'train_result.csv'
 TEST_DATA_PATH = DATA_PATH + 'test_result.csv'
 VALID_DATA_PATH = DATA_PATH + 'valid_result.csv'

@@ -228,7 +228,7 @@ def detect_pose(name=None, img=None, save_csv=False):
 
     df_result = pd.DataFrame(df_result)
     if save_csv:
-        df_result.to_csv(f'./result/csv/{name}_result.csv', index=False)
+        df_result.to_csv(f'./csv/{name}_result.csv', index=False)
     print(f'{name} pose estimation done')
     
     return all_visibilitys, df_result.values.tolist()

@@ -1,0 +1,1 @@
+(Testing), Loss: 2.0912, Accuracy: 0.7627, Precision: 0.7722, Recall: 0.7627, F1-Score: 0.7523
